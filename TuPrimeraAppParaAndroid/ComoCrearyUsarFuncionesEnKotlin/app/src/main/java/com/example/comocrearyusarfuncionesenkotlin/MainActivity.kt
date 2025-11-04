@@ -2,10 +2,18 @@ package com.example.comocrearyusarfuncionesenkotlin
 
 
 fun main() {
-    birhdayGreeting()
+
+    /*
+    val greeting = birhdayGreeting()
+    println(greeting)
+     */
+
+    //println(birhdayGreeting())
+    
 }
 
-fun birhdayGreeting() {
-    println("Happy Birthday, Rover!")
-    println("You are now 5 years old!")
+fun birhdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
 }
