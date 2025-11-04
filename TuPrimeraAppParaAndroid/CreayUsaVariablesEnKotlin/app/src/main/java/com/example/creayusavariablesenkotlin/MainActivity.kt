@@ -14,12 +14,39 @@ fun resumenFotos(numberOfPhotos: Int, photosDeleted: Int) {
     println("${numberOfPhotos - photosDeleted} photos left")
 }
 
+fun totalCarts(cartTotal: Int) {
+    println("Total: $cartTotal")
+}
+
 fun main() {
-    val unreadCount = 5
+    /*
     val readCount = 100
-    val numberOfPhotos = 100
-    val photosDeleted = 10
+    val unreadCount = 5
     //unreadMessages(unreadCount=unreadCount)
     //totalMessages(unreadCount= unreadCount, readCount= readCount)
-    resumenFotos(numberOfPhotos= numberOfPhotos, photosDeleted= photosDeleted)
+    */
+    
+    /*
+    val numberOfPhotos = 100
+    val photosDeleted = 10
+    //resumenFotos(numberOfPhotos= numberOfPhotos, photosDeleted= photosDeleted)
+    */
+    
+    /*
+    var cartTotal = 0
+    //totalCarts(cartTotal= cartTotal)
+    cartTotal = 20
+    //totalCarts(cartTotal= cartTotal)
+    */
+
+    /*
+    var count: Int = 10
+    unreadMessages(unreadCount= count)
+    count = count + 1
+    unreadMessages(unreadCount= count)   
+    count++
+    unreadMessages(unreadCount= count)
+    count--
+    unreadMessages(unreadCount= count)
+    */
 }
