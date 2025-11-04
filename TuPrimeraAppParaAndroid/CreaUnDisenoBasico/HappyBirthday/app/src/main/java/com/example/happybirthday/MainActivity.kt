@@ -31,6 +31,12 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+/*
+ * Componibilidad --> Permiten definir la IU de la app de manera pragmatica
+ *                      --> Define como debe verse no se enfoca en el proceso de construccion
+ *                --> Estas funciones puede aceptar parámetros que permite que la logica de la app
+ *                      --> Describe o modifica la UI
+ */
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
@@ -40,11 +46,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(
     showBackground = true,
-    showSystemUi = true,
     name = "My Preview")
 @Composable
-fun GreetingPreview() {
+fun BirthdayCardPreview() {
     HappyBirthdayTheme {
-        Greeting("Android")
+        Greeting("Alejandro")
     }
 }
