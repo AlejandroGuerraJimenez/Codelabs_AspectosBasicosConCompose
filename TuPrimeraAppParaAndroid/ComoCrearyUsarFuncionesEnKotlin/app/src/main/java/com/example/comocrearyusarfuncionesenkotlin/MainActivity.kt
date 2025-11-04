@@ -9,11 +9,20 @@ fun main() {
      */
     //println(birhdayGreeting())
 
-    //println(birhdayGreeting("Rover"))
-    //println(birhdayGreeting("Rex"))
+    /*
+    println(birhdayGreeting("Rover"))
+    println(birhdayGreeting("Rex"))
+     */
 
+    /*
     println(birhdayGreeting(age = 5, name = "Rover")) // orden incorrecto --> Al nombrar las variables da igual el orden
     println(birhdayGreeting("Rex", 2))  // orden correcto --> no necesario nombrar las variables
+     */
+
+    /*
+    println(birhdayGreetingDefault(age = 5))
+    println(birhdayGreetingDefault("Rex", 2))
+     */
 }
 
 fun birhdayGreeting(): String {
@@ -35,3 +44,7 @@ fun birhdayGreeting(name: String, age: Int): String {
     return "$nameGreeting\n$ageGreeting"
 }
 
+
+fun birhdayGreetingDefault(name: String = "Rover", age: Int): String {
+    return  "Happy Birthday, $name! You are now $age years old!"
+}
