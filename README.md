@@ -185,6 +185,8 @@ ContactInfo(icon = Icons.Default.Email, info = "Tu correo")
 
 **Alejandro Guerra Jimenez**  
 📧 Email: alejandroguerraj013@gmail.com
+
 🔗 GitHub: [Alejandro-Guerra-Jimenez](https://github.com/Alejandro-Guerra-Jimenez)
+
 🔗 GitHub: [AlejandroGuerraJimenez](https://github.com/AlejandroGuerraJimenez)
 
