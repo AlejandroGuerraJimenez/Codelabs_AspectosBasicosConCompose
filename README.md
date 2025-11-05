@@ -98,7 +98,7 @@ La app está compuesta por tres elementos principales:
 
 ---
 
-#### Captura de Pantalla (opcional)
+#### Captura de Pantalla
 
 <img width="251" height="512" alt="image" src="https://github.com/user-attachments/assets/ae2d748e-a7d8-4dc5-b1ee-0371ace0e134" />
 
@@ -152,7 +152,7 @@ La app se compone de tres partes principales:
 
 ---
 
-#### Captura de Pantalla (opcional)
+#### Captura de Pantalla
 
 <img width="469" height="959" alt="image" src="https://github.com/user-attachments/assets/e9d444cf-2ba1-43ca-a377-d3399386b623" />
 
